@@ -4,7 +4,6 @@ package Calc;
 //配列は使用しないで書く
 public class Fibonacci {
 	public long result(int num) {
-//		if(num == 0) { return 0; }
 		if(num == 1) { return 1; }
 		long fib = 0;
 		long fib_0 = 0;
