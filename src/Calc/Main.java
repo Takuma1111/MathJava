@@ -15,5 +15,11 @@ public class Main {
 		for(int i = 1; i <= 50; i++) {
 			System.out.println(i + ":" + fib.result(i));
 		}
+		
+		//再帰関数を使用してフィボナッチ数列を求める
+		recursiveFibonacci fib2 = new recursiveFibonacci();
+		for(int i = 1; i <= 50; i++) {
+			System.out.println("fib2" + ":" + i + ":" + fib2.reFibo(i));
+		}
 	}
 }
