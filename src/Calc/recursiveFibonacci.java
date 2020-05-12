@@ -3,6 +3,7 @@ package Calc;
 public class recursiveFibonacci {
 	
 		public long reFibo(int num) {
+//			System.out.println("と："fibo2(0,0,1,10));
 			return fibo2(0,0,1,num);
 		}
 		

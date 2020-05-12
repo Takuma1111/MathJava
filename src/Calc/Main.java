@@ -21,5 +21,11 @@ public class Main {
 		for(int i = 1; i <= 50; i++) {
 			System.out.println("fib2" + ":" + i + ":" + fib2.reFibo(i));
 		}
+		
+		//一般項を用いてフィボナッチ数列を求める
+		FibonacciGeneralTerms fiboGene = new FibonacciGeneralTerms();
+		for(int i = 0; i <= 50; i++) {
+			System.out.println("fiboGene：" + i + ":" + fiboGene.fiboGeneral(i));
+		}
 	}
 }
